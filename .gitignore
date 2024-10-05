@@ -35,3 +35,15 @@ configs/dram/lowp_sweep.cfg
 .vscode
 typings
 .DS_Store
+/fs_images
+*.tar.bz2
+*.img
+# 忽略大文件
+fs_images/ubuntu-18.04-arm64-docker.img
+fs_images/aarch32-ubuntu-natty-headless.img
+fs_images/aarch-system-20220707.tar.bz2
+fs_images/binaries/vmlinux.arm
+fs_images/binaries/vmlinux.arm64
+fs_images/disks/m5_exit_addr.squashfs.arm64
+cpu_tests/benchmarks/bin/arm/FloatMM
+cpu_tests/benchmarks/bin/arm/Bubblesort

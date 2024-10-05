@@ -1,0 +1,4 @@
+Import('*')
+
+SimObject('JiajiaObject.py', sim_objects=['JiajiaObject'])
+Source('jiajia_object.cc')
